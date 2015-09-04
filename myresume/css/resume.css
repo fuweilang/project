@@ -1,0 +1,251 @@
+@charset 'uft-8';
+
+body {
+	font-family: 'Microsoft YaHei', Arial, 宋体;
+ 	font-size: 14px;
+}
+.dropdown {
+	display: none;
+}
+.dropdown button {
+	float: right;
+}
+.header {
+ 	background: #0090ba;
+ 	padding-top: 2.5rem;
+}
+#tableTwo {
+	display: none;
+}
+.phone-no {
+	color: #fff;
+	-webkit-color: #fff;
+}
+.header-img {
+	padding-top: 0.71rem;
+}
+.header-img img {
+	float: right;
+	width: 12rem;
+	height: 12rem;
+	border-radius: 50%;
+}
+.header-info {
+	padding-top: 0.71rem;
+	color: #fff;
+}
+.header-info table td {
+	text-align: left;
+}
+.header-nav {
+	padding-right: 0;
+}
+.header-nav ul {
+	float: right;
+}
+.header-nav li {
+	background: #fff;
+	border-radius: 5px;
+}
+.header-nav li a {
+	font-size: 16px;
+}
+.main {
+	background: #fff;
+}
+.main-content {
+	position: relative;
+	width: 98%;
+	padding: 2.86rem 0;
+}
+.main-axis {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0.4rem;
+	height: 100%;
+	background: #0090ba;
+}
+.axis-icon {
+	position: absolute;
+	top: -1px;
+	left: -6px;
+	width: 2.14rem;
+	height: 2.14rem;
+	background: url("../images/arrow_icon.png") no-repeat;
+	background-size: 1.6rem;
+}
+.expertise {
+	position: relative;
+	left: 0.36rem;
+	width: 98%;
+	padding: 5.86rem 0 0 0.71rem;
+}
+.tit {
+	position: absolute;
+	top: 3rem;
+	left: -13px;
+	height: 50px;
+	cursor: pointer;
+}
+.tit-icon {
+	float: left;
+	width: 30px;
+	height: 50px;
+	background: url("../images/circle_icon.png") 0 13px no-repeat;
+}
+.tit h5 {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #0090ba;
+	font-size: 18px;
+}
+.expertise-con {
+	overflow: hidden;
+	padding: 0.46rem 0 0 1rem;
+	width: 100%;
+}
+.expertise-con ul {
+	padding-top: 1.4rem;
+}
+.expertise-con li {
+	position: relative;
+	float: left;
+	margin: 0 4.29rem 2.86rem 0;
+	width: 250px;
+	height: 250px;
+	padding-top: 6rem;
+	background: #0090ba;
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 0 0 0.5rem 0.5rem #aaa;
+}
+.expertise-con li h3 {
+	color: #fff;
+	text-align: center;
+}
+.expertise-con li div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15% 0 0 13%;
+	background: #fff;
+	color: #0090ba;
+	font-size: 12px;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+.expertise-con li div:hover {
+	opacity: 1;
+}
+.expertise-con li div p {
+	width: 85%;
+	padding-left: 20px;
+	background: url("../images/start_icon.png") 3px 2px no-repeat;
+}
+.expertise-con li:nth-child(1) div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 25% 0 0 10%;
+	background: #fff;
+	color: #0090ba;
+	font-size: 12px;
+	border-radius: 50%;
+}
+.expertise-con li:nth-child(1) div p {
+	width: 87%;
+	padding-left: 20px;
+	background: url("../images/start_icon.png") 3px 2px no-repeat;
+}
+.expertise-con li:nth-child(6) div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 28% 0 0 10%;
+	background: #fff;
+	color: #0090ba;
+	font-size: 12px;
+	border-radius: 50%;
+}
+.project {
+	position: relative;
+	left: 0.36rem;
+	width: 98%;
+	padding: 5.14rem 0 0 0.71rem;
+}
+.project-con {
+	overflow: hidden;
+	width: 100%;
+	padding-top: 2.2rem;
+}
+.project-con h4 {
+	color: #0090ba;
+}
+.project-con p {
+	padding-left: 0.71rem;
+}
+.expenence {
+	position: relative;
+	left: 0.36rem;
+	width: 98%;
+	margin-top: 0.71rem;
+	padding: 7.14rem 0 0 0.71rem;
+}
+.expenence-con {
+	overflow: hidden;
+	width: 100%;
+}
+.expenence-con h4 {
+	padding-left: 0.71rem;
+	color: #0090ba;
+}
+.expenence-con p {
+	padding-left: 0.71rem;
+}
+.reward {
+	position: relative;
+	left: 0.36rem;
+	width: 98%;
+	margin-top: 0.71rem;
+	padding: 8.14rem 0 0 0.71rem;
+}
+.reward-con {
+	overflow: hidden;
+	width: 100%;
+}
+.reward-con h3 {
+	padding-left: 0.71rem;
+}
+.reward-con p {
+	padding-left: 0.71rem;
+}
+.self-evaluation {
+	position: relative;
+	left: 0.36rem;
+	width: 98%;
+	/*margin-top: 0.71rem;*/
+	padding: 7.64rem 0 0 0.71rem;
+}
+.evaluation-con {
+	overflow: hidden;
+	width: 100%;
+}
+.evaluation-con h3 {
+	padding-left: 0.71rem;
+}
+.evaluation-con p {
+	padding-left: 0.71rem;
+}
